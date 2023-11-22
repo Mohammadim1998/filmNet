@@ -10,8 +10,6 @@ const getData = async () => {
 
 const movies = async () => {
   const data = await getData();
-  console.log("data :", data);
-
  
   return (
     <>
